@@ -1,7 +1,6 @@
 body {
     font-family: "Poppins", sans-serif;
     font-weight: 300;
-    background-image: url("../image/mountains-3.jpg");
     background-repeat: no-repeat;
     background-size: fill;
   }
@@ -40,7 +39,7 @@ body {
     margin: 1px auto;
     padding: 1px;
     max-width: 700px;
-    color: #ffffff;
+    color: #f776d0;
   }
   .todays-weather {
     max-width: 700px;
@@ -94,10 +93,10 @@ body {
     padding-top: 8px;
     padding-bottom: 8px;
     border-radius: 10px;
-    color: #ffff;
+    color: #fad0fb;
     font-family: "Poppins", sans-serif;
     font-weight: 300;
-    background-color: #836d97;
+    background-color: #bda0d7;
     border: 0px;
     transition: all 200ms ease;
   }

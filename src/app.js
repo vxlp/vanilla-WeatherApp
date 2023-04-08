@@ -99,7 +99,7 @@ function formatDate(timestamp) {
     tempretureElement.innerHTML = Math.round(celsiusTempreture);
   }
   
-  //geolocate
+
   
   function geoLocate(event) {
     event.preventDefault();
@@ -129,4 +129,4 @@ function formatDate(timestamp) {
   let celsiusLink = document.querySelector("#celsius-link");
   celsiusLink.addEventListener("click", displayCelsiusTemperature);
   
-  search("London");
+  search("KwaZulu Natal");
