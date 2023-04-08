@@ -1,0 +1,136 @@
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    background-image: url("../image/mountains-3.jpg");
+    background-repeat: no-repeat;
+    background-size: fill;
+  }
+  h1 {
+    font-family: "Poppins", sans-serif;
+    padding-top: 10px;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 47px;
+  }
+  h3 {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #ffffff;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    line-height: 21px;
+    font-weight: 300;
+  }
+  a {
+    color: #c1b7d8;
+  }
+  small {
+    display: block;
+    text-align: center;
+    margin: 1px auto;
+    padding: 1px;
+    max-width: 700px;
+    color: #ffffff;
+  }
+  .todays-weather {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 35px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 15px;
+  }
+  .todays-weather img {
+    margin-right: 1px;
+    margin-top: 10px;
+    width: 85px;
+    position: relative;
+    top: 8px;
+  }
+  .weather-temp-today strong {
+    font-size: 45px;
+    margin-top: 20px;
+    line-height: 50px;
+    position: relative;
+    top: 20px;
+    text-align: center;
+  }
+  .weather-temp-today .units {
+    font-size: 12px;
+    position: relative;
+    top: 34px;
+    margin: 5px;
+  }
+  .weather-description {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin: 0px;
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 400;
+    text-transform: capitalize;
+  }
+  .weather-details {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .weather-details li {
+    font-size: 12px;
+  }
+  .search {
+    width: 100%;
+    display: block;
+    margin: auto;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 10px;
+    color: #ffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    background-color: #836d97;
+    border: 0px;
+    transition: all 200ms ease;
+  }
+  .search:hover {
+    background-color: #b6adf0;
+  }
+  .locationbutton {
+    width: 100%;
+    display: block;
+    margin: auto;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 10px;
+    color: #ffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    background-color: #836d97;
+    border: 0px;
+    transition: all 200ms ease;
+  }
+  .locationbutton:hover {
+    background-color: #b6adf0;
+  }
+  .form-container {
+    max-width: 700px;
+    padding-top: 20px;
+    margin: auto;
+  }
+  .weather-temp-today .active {
+    color: #212529;
+    cursor: default;
+    text-decoration: none;
+  }
+  .weather-temp-today .active:hover {
+    text-decoration: none;
+  }
