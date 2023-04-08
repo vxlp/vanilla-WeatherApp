@@ -129,4 +129,4 @@ function formatDate(timestamp) {
   let celsiusLink = document.querySelector("#celsius-link");
   celsiusLink.addEventListener("click", displayCelsiusTemperature);
   
-  search("KwaZulu Natal");
+  search("Durban");
